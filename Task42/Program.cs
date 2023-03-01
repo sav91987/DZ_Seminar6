@@ -13,7 +13,7 @@ GetBinNumber(str);
 void GetBinNumber(string strMeth)
 {
     System.Console.Write($"Число {numberSaved} в двоичной сиситеме равно ");
-    for (int i = str.Length - 1; i >= 0; i--)
+    for (int i = strMeth.Length - 1; i >= 0; i--)
     {
         System.Console.Write(strMeth[i]);
     }
